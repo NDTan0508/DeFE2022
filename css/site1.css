@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.TQ{
+    width: 100%;
+    height: fit-content;
+}
+.banner, .header, .anh{
+    position: absolute;
+    width: 100%;
+}
+.banner{
+    z-index: 2;
+}
+.banner img{
+    width: 100%;
+    height: 302px;
+    object-fit: cover;
+}
+.header .header1 div:hover{
+    color: red;
+    transform: scale(1.3);
+}
+.header .header2 div:hover{
+    color: red;
+    transform: scale(1.3);
+
+}
+.header{
+    width: 100%;
+    height: 300px;
+    border-bottom: 5px solid white;
+    z-index: 3;
+}
+.header1{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.header1 .p{
+    line-height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+   
+}
+.header2{
+    width: 100%;
+    height: 262px;
+    text-align: center;
+    
+}
+.header2 .p1{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+.header2 .p2{
+    font-size: 19px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.anh{
+    text-align: center;
+    z-index: 4;
+    margin-top: 200px;
+}
+
+.anh img{
+      width: 200px;
+      height: 200px;
+      border: 4px solid rgb(255, 255, 255);
+      border-radius: 100%;
+}
+.anh img:hover{
+    transform: scale(1.2);
+}
+.body{
+    color: white;
+    background-color: black;
+    padding-bottom: 30px;
+    padding-top: 306px;
+}
+.container{
+    
+    padding-top: 72px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hang{
+    width: 55%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(156, 155, 155);
+    margin-top: 70px;
+    padding-bottom: 5px;
+}
+.hang i{
+    margin-right: 7px;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: red;
+}
